@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/emailText"
+        android:inputType="textEmailAddress"
+
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="email giriniz"></EditText>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="numberPassword"
+        android:layout_marginRight="50dp"
+        android:id="@+id/sifreText"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="sifre"></EditText>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="kayitol"
+        android:id="@+id/kayitol"
+        android:layout_marginTop="50dp"
+        android:text="kayıt ol "
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="girisyap"
+        android:text="girişyap">
+
+    </Button>
+
+
+</LinearLayout>
+
+
